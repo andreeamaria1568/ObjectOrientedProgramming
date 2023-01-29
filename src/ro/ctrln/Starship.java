@@ -15,7 +15,8 @@ public interface Starship {
     void setStarshipDestination (String destination);
 
     //metoda functie, returneaza un rezultat, fara implementare;
-    double computeWarpSpeed (int warpFactor, int lightYearsToDestination);
+  double computeWarpSpeed(int warpFactor, int lightYearsToDestination);
+
 
     //metoda implicita
     default int productionID() {
